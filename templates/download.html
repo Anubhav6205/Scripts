@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Download</title>
+  </head>
+  <body>
+    <h1>Download</h1>
+    <p>Download the results below:</p>
+    <ul>
+      <li><a href="{{ url_for('histogram', filename=filename) }}">Histogram</a></li>
+      <li><a href="{{ url_for('confusion_matrix', filename=filename) }}">Confusion Matrix</a></li>
+    </ul>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Histogram</title>
+</head>
+<body>
+    <h1>Histogram of FICO Scores</h1>
+    <img src="{{ url_for('static', filename='plot.png') }}">
+    <p><a href="{{ url_for('histogram', filename=filename) }}">Download Histogram</a></p>
+</body>
+</html>
